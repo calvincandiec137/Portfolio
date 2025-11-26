@@ -144,7 +144,7 @@ export const projects: Project[] = [
       "Deployed on GCP Cloud Run for scalable usage.",
     ],
     githubUrl: "https://github.com/calvincandiec137",
-    youtubeId: "dQw4w9WgXcQ", 
+    youtubeId: "", 
   },
 ]
 
