@@ -5,7 +5,7 @@ export function Hero() {
 
   return (
     <section id="home" className="min-h-screen flex items-center border-b border-border pt-16">
-      <div className="max-w-9xl mx-auto px-5 text-2xl py-20">
+      <div className="max-w-7xl mx-auto px-5 text-2xl py-20">
         <h1 className="text-4xl md:text-6xl font-extrabold mb-2 text-foreground">{profile.name}</h1>
         <h2 className="text-xl md:text-2xl text-muted-foreground mb-6">{profile.title}</h2>
         <p className="max-w-5xl text-muted-foreground mb-8">{profile.bio}</p>
