@@ -21,7 +21,7 @@ const profile = {
     name: "Faiz Khan",
     title: "AI & Backend Developer",
     username: "faiz_khan",
-    bio: "Computer Engineering student at TSEC building production-grade RAG systems, low-latency trading algorithms, and scalable backend services. Skilled in Python, C/C++, and Go, with a focus on performance, reliability, and clean architecture.",
+    bio: "Computer Engineering student at TSEC building production-grade RAG systems, and scalable backend services. Skilled in Python, C/C++, and Go, with a focus on performance, reliability, and clean architecture.",
     terminal: {
         os: "Backend & AI Engineering",
         kernel: "RAG Systems · AIML Infrastructure",
@@ -36,7 +36,7 @@ const profile = {
     contact: {
         email: "khanfaizmominshama@google.com",
         github: "https://github.com/calvincandiec137",
-        linkedin: "https://linkedin.com/in/faizkhan"
+        linkedin: "https://linkedin.com/in/faiz-khan-yw/"
     }
 };
 const statBars = [
@@ -151,8 +151,8 @@ const projects = [
             "Optimized embedding caching for 50% faster responses.",
             "Supports CSV-based bulk testing & streaming responses."
         ],
-        githubUrl: "https://github.com/calvincandiec137",
-        youtubeId: ""
+        githubUrl: "https://github.com/calvincandiec137/DoChat",
+        youtubeId: "smLLruXduPU"
     },
     {
         title: "Goodwill Copy Trader",
@@ -162,8 +162,8 @@ const projects = [
             "100% order synchronization across multiple accounts.",
             "Secure token exchange & Excel-based configuration."
         ],
-        githubUrl: "https://github.com/calvincandiec137",
-        youtubeId: ""
+        githubUrl: "https://github.com/calvincandiec137/Python-Copy_trader",
+        youtubeId: "Qy75lc2OWto"
     },
     {
         title: "Depression Detection System",
@@ -174,7 +174,7 @@ const projects = [
             "Deployed on GCP Cloud Run for scalable usage."
         ],
         githubUrl: "https://github.com/calvincandiec137",
-        youtubeId: "dQw4w9WgXcQ"
+        youtubeId: ""
     }
 ];
 const achievements = [
@@ -254,7 +254,7 @@ function Navbar() {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "#",
-                        className: "font-bold text-3xl text-primary",
+                        className: "font-bold text-lg text-primary",
                         children: [
                             "~/",
                             __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["profile"].username

@@ -17,12 +17,12 @@ export function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-background/95 border-b border-border z-50 backdrop-blur-sm">
-      <div className="max-w-5xl mx-auto px-5 py-4 pl-0 flex justify-between items-center">
-        {/* <a href="#" className="font-bold text-3xl text-primary">
+      <div className="max-w-5xl mx-auto px-5 py-4 flex justify-between items-center">
+        <a href="#" className="font-bold text-lg text-primary">
           ~/{profile.username}
-        </a> */}
+        </a>
 
-        <ul className="hidden md:flex ml-0 pl-0 gap-10 text-xl">
+        <ul className="hidden md:flex gap-5 text-sm">
           {navLinks.map((link) => (
             <li key={link.href}>
               <a href={link.href} className="text-muted-foreground hover:text-foreground transition-colors">

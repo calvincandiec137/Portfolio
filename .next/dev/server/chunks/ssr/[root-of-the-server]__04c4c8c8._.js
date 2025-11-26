@@ -263,10 +263,10 @@ function Hero() {
         id: "home",
         className: "min-h-screen flex items-center border-b border-border pt-16",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-7xl mx-auto px-5 text-2xl py-20",
+            className: "max-w-5xl mx-auto px-5 py-20",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    className: "text-4xl md:text-6xl font-extrabold mb-2 text-foreground",
+                    className: "text-4xl md:text-5xl font-extrabold mb-2 text-foreground",
                     children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["profile"].name
                 }, void 0, false, {
                     fileName: "[project]/components/hero.tsx",
@@ -282,7 +282,7 @@ function Hero() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "max-w-5xl text-muted-foreground mb-8",
+                    className: "max-w-xl text-muted-foreground mb-8",
                     children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["profile"].bio
                 }, void 0, false, {
                     fileName: "[project]/components/hero.tsx",
@@ -290,7 +290,7 @@ function Hero() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "bg-card border border-border p-5 rounded text-sm text-card-foreground max-w-5xl",
+                    className: "bg-card border border-border p-5 rounded text-sm text-card-foreground max-w-xl",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
@@ -310,7 +310,7 @@ function Hero() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("pre", {
-                            className: "text-muted-foreground mt-2 mb-4 whitespace-pre-wrap text-2xl",
+                            className: "text-muted-foreground mt-2 mb-4 whitespace-pre-wrap text-sm",
                             children: `OS: ${terminal.os}
 Kernel: ${terminal.kernel}
 Uptime: ${terminal.uptime}
@@ -356,7 +356,7 @@ Current Task: ${terminal.currentTask}`
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                             href: "#projects",
-                            className: "px-5 py-2.5 border border-muted-foreground text-foreground text-lg hover:bg-foreground hover:text-background hover:border-foreground transition-all",
+                            className: "px-5 py-2.5 border border-muted-foreground text-foreground text-sm hover:bg-foreground hover:text-background hover:border-foreground transition-all",
                             children: "View Projects"
                         }, void 0, false, {
                             fileName: "[project]/components/hero.tsx",
@@ -365,7 +365,7 @@ Current Task: ${terminal.currentTask}`
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                             href: "#contact",
-                            className: "px-5 py-2.5 border border-muted-foreground text-foreground text-lg hover:bg-foreground hover:text-background hover:border-foreground transition-all",
+                            className: "px-5 py-2.5 border border-muted-foreground text-foreground text-sm hover:bg-foreground hover:text-background hover:border-foreground transition-all",
                             children: "Contact Me"
                         }, void 0, false, {
                             fileName: "[project]/components/hero.tsx",
@@ -513,7 +513,7 @@ function Skills() {
             className: "max-w-5xl mx-auto px-5",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                    className: "text-3xl mb-10 text-foreground border-l-4 border-accent pl-4 uppercase tracking-wide",
+                    className: "text-2xl mb-10 text-foreground border-l-4 border-accent pl-4 uppercase tracking-wide",
                     children: "02. Tech Stack"
                 }, void 0, false, {
                     fileName: "[project]/components/skills.tsx",
@@ -525,7 +525,7 @@ function Skills() {
                     children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["skillCategories"].map((category)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-xl text-foreground mb-4 border-b border-border pb-2 inline-block",
+                                    className: "text-lg text-foreground mb-4 border-b border-border pb-2 inline-block",
                                     children: category.title
                                 }, void 0, false, {
                                     fileName: "[project]/components/skills.tsx",
@@ -535,7 +535,7 @@ function Skills() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex flex-wrap gap-2",
                                     children: category.skills.map((skill)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "bg-card border border-border px-3 py-1.5 text-lg text-muted-foreground hover:border-accent transition-colors",
+                                            className: "bg-card border border-border px-3 py-1.5 text-sm text-muted-foreground hover:border-accent transition-colors",
                                             children: skill.name
                                         }, skill.name, false, {
                                             fileName: "[project]/components/skills.tsx",
@@ -587,7 +587,7 @@ function ProjectCard({ project }) {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        className: "text-xl font-bold text-foreground mb-1",
+                        className: "text-lg font-bold text-foreground mb-1",
                         children: project.title
                     }, void 0, false, {
                         fileName: "[project]/components/project-card.tsx",
@@ -595,7 +595,7 @@ function ProjectCard({ project }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-sm text-muted-foreground mb-4",
+                        className: "text-xs text-muted-foreground mb-4",
                         children: project.tech
                     }, void 0, false, {
                         fileName: "[project]/components/project-card.tsx",
@@ -603,7 +603,7 @@ function ProjectCard({ project }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                        className: "text-lg text-muted-foreground space-y-1.5 list-disc pl-5 mb-5",
+                        className: "text-sm text-muted-foreground space-y-1.5 list-disc pl-5 mb-5",
                         children: project.description.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: item
                             }, i, false, {
@@ -644,7 +644,7 @@ function ProjectCard({ project }) {
                 href: project.githubUrl,
                 target: "_blank",
                 rel: "noopener noreferrer",
-                className: "text-lg uppercase tracking-wide font-bold text-muted-foreground hover:text-foreground transition-colors",
+                className: "text-sm uppercase tracking-wide font-bold text-muted-foreground hover:text-foreground transition-colors",
                 children: [
                     ">",
                     " GitHub_Repo"
@@ -683,7 +683,7 @@ function Projects() {
             className: "max-w-5xl mx-auto px-5",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                    className: "text-3xl mb-10 text-foreground border-l-4 border-accent pl-4 uppercase tracking-wide",
+                    className: "text-2xl mb-10 text-foreground border-l-4 border-accent pl-4 uppercase tracking-wide",
                     children: "03. Deployed Protocols"
                 }, void 0, false, {
                     fileName: "[project]/components/projects.tsx",
@@ -826,7 +826,7 @@ function Contact() {
             className: "max-w-5xl mx-auto px-5 text-left",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                    className: "text-3xl mb-10 text-foreground border-l-4 border-accent pl-4 uppercase tracking-wide text-left",
+                    className: "text-2xl mb-10 text-foreground border-l-4 border-accent pl-4 uppercase tracking-wide text-left",
                     children: "05. Establish Connection"
                 }, void 0, false, {
                     fileName: "[project]/components/contact.tsx",
@@ -834,15 +834,15 @@ function Contact() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-muted-foreground max-w-md mx-0 mb-10",
-                    children: "Currently open for internships and collaborative projects involving RAG, Backend Systems or AI/ML."
+                    className: "text-muted-foreground max-w-md mx-auto mb-10",
+                    children: "Currently open for internships and collaborative projects involving RAG, Backend Systems, or Algo Trading."
                 }, void 0, false, {
                     fileName: "[project]/components/contact.tsx",
                     lineNumber: 12,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex gap-6 flex-wrap",
+                    className: "flex justify-center gap-6 flex-wrap",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                             href: `mailto:${__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["profile"].contact.email}`,
@@ -856,7 +856,7 @@ function Contact() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-lg",
+                                    className: "text-sm",
                                     children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["profile"].contact.email
                                 }, void 0, false, {
                                     fileName: "[project]/components/contact.tsx",
@@ -883,7 +883,7 @@ function Contact() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-lg",
+                                    className: "text-sm",
                                     children: "GitHub"
                                 }, void 0, false, {
                                     fileName: "[project]/components/contact.tsx",
@@ -910,7 +910,7 @@ function Contact() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-lg",
+                                    className: "text-sm",
                                     children: "LinkedIn"
                                 }, void 0, false, {
                                     fileName: "[project]/components/contact.tsx",
@@ -955,7 +955,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2
 ;
 function Footer() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "text-center py-10 text-sm text-muted-foreground border-t border-border",
+        className: "text-center py-10 text-xs text-muted-foreground border-t border-border",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             children: [
                 "© ",
