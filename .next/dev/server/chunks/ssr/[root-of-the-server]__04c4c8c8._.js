@@ -117,9 +117,6 @@ const skillCategories = [
                 name: "C++"
             },
             {
-                name: "Golang"
-            },
-            {
                 name: "SQL"
             }
         ]
@@ -138,6 +135,9 @@ const skillCategories = [
             },
             {
                 name: "Streamlit"
+            },
+            {
+                name: "n8n"
             },
             {
                 name: "AWS (Basics)"
@@ -211,16 +211,28 @@ const projects = [
         githubUrl: "https://github.com/calvincandiec137/Python-Copy_trader",
         youtubeId: "Qy75lc2OWto"
     },
+    // {
+    //   title: "Depression Detection System",
+    //   tech: "Agentic AI, ML, Audio Processing, GCP",
+    //   description: [
+    //     "Multi-modal assessment using acoustic & linguistic features.",
+    //     "Utilizes Mel-spectrograms & prosody analysis.",
+    //     "Deployed on GCP Cloud Run for scalable usage.",
+    //   ],
+    //   githubUrl: "https://github.com/calvincandiec137",
+    //   youtubeId: "", 
+    // },
     {
-        title: "Depression Detection System",
-        tech: "Agentic AI, ML, Audio Processing, GCP",
+        title: "n8n Audio Processing",
+        tech: "n8n, Flask API, FFmpeg, Docker",
         description: [
-            "Multi-modal assessment using acoustic & linguistic features.",
-            "Utilizes Mel-spectrograms & prosody analysis.",
-            "Deployed on GCP Cloud Run for scalable usage."
+            "Workflow for automated audio pitch & tempo modification.",
+            "Uses n8n to orchestrate uploads, API calls, and response handling.",
+            "Audio processed via custom Flask-FFmpeg.",
+            "Triggers using new file upload in Drive."
         ],
-        githubUrl: "https://github.com/calvincandiec137",
-        youtubeId: ""
+        githubUrl: "https://github.com/calvincandiec137/n8n_audio_processing",
+        youtubeId: "A8C3H94ioqU"
     }
 ];
 const achievements = [

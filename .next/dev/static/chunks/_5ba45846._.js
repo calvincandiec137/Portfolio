@@ -13,7 +13,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 function ResumeButton() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-        href: "https://drive.google.com/uc?export=download&id=1FfsYc-nA1HV579BdqZbVaEUj1HoTV0tn",
+        href: "https://drive.google.com/file/d/1ptrZPY8opSJo1rgHU4A0jIzCi74aqWzl/view?usp=drive_link",
         target: "_blank",
         rel: "noopener noreferrer",
         "aria-label": "Download resume",
