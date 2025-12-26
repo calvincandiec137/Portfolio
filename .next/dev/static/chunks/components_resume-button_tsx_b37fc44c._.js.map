@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/faizmk/Downloads/portfolio-website/components/resume-button.tsx"],"sourcesContent":["\"use client\"\n\nimport { Download } from \"lucide-react\"\n\nexport default function ResumeButton() {\n  return (\n    <a\n      href=\"https://drive.google.com/file/d/1ptrZPY8opSJo1rgHU4A0jIzCi74aqWzl/view?usp=drive_link\"\n      target=\"_blank\"\n      rel=\"noopener noreferrer\"\n      aria-label=\"Download resume\"\n      className=\"fixed top-18 right-3 z-50\"\n    >\n      <button\n        type=\"button\"\n        className=\"h-12 w-25 rounded-xl  bg-primary text-background shadow-lg flex items-center justify-center hover:scale-105 transform transition-all\"\n      >\n        <Download size={18} />\n        <p className=\"ml-1\">Resume</p>\n      </button>\n    </a>\n  )\n}\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAAS;IACtB,qBACE,6LAAC;QACC,MAAK;QACL,QAAO;QACP,KAAI;QACJ,cAAW;QACX,WAAU;kBAEV,cAAA,6LAAC;YACC,MAAK;YACL,WAAU;;8BAEV,6LAAC,yNAAQ;oBAAC,MAAM;;;;;;8BAChB,6LAAC;oBAAE,WAAU;8BAAO;;;;;;;;;;;;;;;;;AAI5B;KAlBwB"}}]
-}
