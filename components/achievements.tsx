@@ -5,7 +5,7 @@ export function Achievements() {
     <section id="achievements" className="py-20 border-b border-border">
       <div className="max-w-5xl mx-auto px-5">
         <h2 className="text-3xl mb-10 text-foreground border-l-4 border-accent pl-4 uppercase tracking-wide">
-          04. Milestones
+          05. Milestones
         </h2>
 
         <div className="space-y-8">

@@ -5,7 +5,7 @@ export function Skills() {
     <section id="skills" className="py-20 border-b border-border">
       <div className="max-w-5xl mx-auto px-5">
         <h2 className="text-2xl mb-10 text-foreground border-l-4 border-accent pl-4 uppercase tracking-wide">
-          02. Tech Stack
+          03. Tech Stack
         </h2>
 
         <div className="grid md:grid-cols-2 gap-8">
