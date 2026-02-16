@@ -159,6 +159,17 @@ export const experiences: Experience[] = [
 // ============================================
 export const projects: Project[] = [
   {
+    title:"Nolan – AI-Powered Screenplay Generator & Analyzer",
+    tech: "Local LLMs • Multi-Agent AI Systems • Knowledge Graphs • FastAPI",
+    description: [
+      "AI-driven IDE for writers with context-aware assistance and privacy-first local LLM execution, bridging native and web environments seamlessly.",
+      "Multi-agent LLM Council with Director/Editor/Audience roles maintains narrative consistency, identifies plot holes, and maps idea relationships via knowledge graphs.",
+      "FastAPI-deployed privacy-focused system won 1st Place at TSEC-HACKS 2026, delivering advanced AI evaluation for serious authors.",
+    ],
+    githubUrl: "",
+    youtubeId: "5rkhJy4WTxs", 
+  },
+  {
     title: "AETHER – AI Governance & Adjudication Engine",
     tech: "LLM Council, RoBERTa, Multi-Agent Debate",
     description: [
@@ -172,23 +183,23 @@ export const projects: Project[] = [
     title: "Mind Voice – Depression Detection System",
     tech: "Agentic AI, ML, Audio Processing, GCP",
     description: [
-      "Designed a multimodal classification pipeline mixing acoustic signals (pitch, tone, prosody, pauses) with linguistic sentiment and keyword cues to improve robustness across varied speakers.",
-      "Extracted Mel-spectrograms and prosodic statistical features to turn raw audio into stable inputs, reducing sensitivity to noise and speaker variation.",
+      "Designed a multimodal classification pipeline mixing acoustic signals with linguistic sentiment and keyword cues to improve robustness across varied speakers.",
       "Integrated Speech-to-Text with emotion scoring so text and acoustic signals reinforce each other, improving prediction reliability across accents and recording quality.",
       "Deployed on GCP Cloud Run behind API Gateway, enabling fast iteration without redeploying clients.",
     ],
     githubUrl: "https://github.com/calvincandiec137/Depression-Detection",
+    youtubeId: "VkV4_lyZzUA",
   },
   {
-    title: "LenDen AI Chatbot",
-    tech: "Python, FAISS, AWS Bedrock, FastAPI",
+    title: "DoChat – AI Document Assistant (RAG System)",
+    tech: "FastAPI, FAISS, React, TypeScript, Groq LLM, CrossEncoder",
     description: [
-      "RAG-enhanced chatbot with 90% query resolution accuracy.",
-      "Optimized embedding caching for 50% faster responses.",
-      "Supports CSV-based bulk testing & streaming responses.",
+      "Full-stack RAG application enabling conversational Q&A over PDF documents with FastAPI backend, FAISS vector indexing, and Groq LLM integration.",
+      "Implemented dual-stage retrieval (vector search + CrossEncoder reranking) with React + TypeScript frontend for real-time document processing.",
+      "Architected modular components with configurable parameters for seamless upload-to-query workflows and production-grade scalability.",
     ],
     githubUrl: "https://github.com/calvincandiec137/DoChat",
-    youtubeId: "smLLruXduPU",
+    youtubeId: "8MGelObxBrU",
   },
   {
     title: "Goodwill Copy Trader",
