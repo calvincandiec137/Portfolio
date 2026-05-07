@@ -5,7 +5,7 @@ import { Download } from "lucide-react"
 export default function ResumeButton() {
   return (
     <a
-      href="https://drive.google.com/file/d/1gpGpqUQ3GLcuBknsiuItMtD1fQ_0KkAc/view?usp=sharing"
+      href="https://drive.google.com/file/d/1lUrcu2n8hqjLNstLkpt-STP2gShnphAz/view?usp=sharing"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Download resume"
